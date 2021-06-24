@@ -2417,9 +2417,10 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		text-align: center;
 	}
 
 		ul li {
@@ -2786,7 +2787,7 @@ input, select, textarea {
 			}
 
 			.spotlight:nth-child(2n) .content {
-				text-align: right;
+				text-align: left;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
