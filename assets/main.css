@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 iframe{
 	border-width:5px;
 }
@@ -35,7 +34,7 @@ figure {
 }
 
 body {
-	font: 400 16px/1.5 "Roboto Mono", 'monospace';
+	font: 400 16px/1.5 "Helvetica", 'sans-serif';
 	color: #111;
 	background-color: #fdfdfd;
 	-webkit-text-size-adjust: 100%;
