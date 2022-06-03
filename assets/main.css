@@ -3,7 +3,7 @@ iframe{
 }
 
 .lefth4{
-	margin-top:40px;
+	margin-top:20px;
 	margin-bottom:0;
 }
 .pcenter{
@@ -12,6 +12,9 @@ iframe{
 .projectholder{
 	border-style:inset;
 	border:5px solid grey;
+}
+.p2{
+	margin-bottom: 0;
 }
 body,
 h1,
@@ -36,7 +39,7 @@ figure {
 body {
 	font: 400 16px/1.5 "Helvetica", 'sans-serif';
 	color: #111;
-	background-color: #fdfdfd;
+	background-color: #d6f8ff;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-feature-settings: "kern" 1;
 	-moz-font-feature-settings: "kern" 1;
@@ -154,7 +157,7 @@ pre>code {
 
 .wrapper {
 	max-width: -webkit-calc(800px - (30px * 2));
-	max-width: calc(800px - (30px * 2));
+	max-width: calc(800px - (1rem));
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 30px;
@@ -198,9 +201,10 @@ pre>code {
 }
 
 .site-header {
-	border-bottom: 2px solid #0011fd;
 	min-height: 55.95px;
-	position: relative
+	position: relative;
+	background-color: #0275d8;
+	border-bottom: 0.1rem solid #918181;
 }
 
 .site-title {
@@ -208,12 +212,13 @@ pre>code {
 	font-weight: 400;
 	line-height: 54px;
 	margin-bottom: 0;
-	float: left
+	float: left;
+	color: white;
 }
 
 .site-title,
 .site-title:visited {
-	color: #000000
+	color: #ffffff
 }
 
 .site-nav {
@@ -230,7 +235,7 @@ pre>code {
 }
 
 .site-nav .page-link {
-	color: #111;
+	color: rgb(255, 255, 255);
 	line-height: 1.5
 }
 
@@ -287,8 +292,8 @@ pre>code {
 }
 
 .site-footer {
-	border-top: 1px solid #e8e8e8;
-	padding: 15px 0
+	border-top: 0.7px solid #b2abab;
+	padding: 1.5rem 0;
 }
 
 .footer-heading {

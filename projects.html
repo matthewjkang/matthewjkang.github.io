@@ -40,11 +40,11 @@
             </span>
           </label>
           <div class="trigger">
+            <a class="page-link" href="http://blog.mattkang.com/">Blog</a>
             <a class="page-link" href="/life">Life</a>
             <a class="page-link" href="/projects">Projects</a>
-            <a class="page-link" href="/resume">Resume</a>
-            <a class="page-link" href="/referMeAJob">referMeAJob</a>
-          </div>
+            <a class="page-link" href="/referMeAJob">Referrals</a>
+        </div>
         </nav>
     </div>
   </header>
@@ -53,25 +53,44 @@
     <div class="wrapper">
       <article class="post">
           <div class="post-content">
-            <h3>Projects</h3>
-            <h4 class='lefth4'><u><a href="https://mjktodo.herokuapp.com" target="_blank">CRUD Application (Flask) ✅</a></u></h4>
-            <p><iframe src="https://mjktodo.herokuapp.com" title="TODO" width = '100%' height = 300></iframe></p>
+            <h2 style="text-align: center;margin-bottom: 2rem;"><u>Projects</u></h2>
+
+            <h4 class='lefth4'><u><a href="https://branchbase2.herokuapp.com/" target="_blank">Branch Base</a></u></h4>
+            <ul>
+              <li>A blog web application that I wrote in Django.</li>
+              <li>Supports user creation, log in & log out, creation of new posts, updating and deleting user specific posts, and much more.</li>
+              <li>Application itself is hosted on Heroku with a PostgreSQL database backend.</li>
+              <li>File storage is done with AWS S3.</li>
+              <li>AWS S3 read and write permissions are provisioned using AWS IAM (Identity Access Manager)</li>
+            </ul>
+
+            <h4 class='lefth4'><u><a href="https://mjktodo.herokuapp.com" target="_blank">Task Master</a></u></h4>
+            <ul>
+              <li>A todolist web application that I wrote in Flask.</li>
+              <li>Supports the four basic operations of persistent storage : Create, Read, Update, Delete.</li>
+              <li>Uses basic javascript to tell you the time and change the background & greeting for you based on the time of day.
+                <ul>
+                  <li>Its not that crazy but im not a Javascript guy so it was fun to play around with browser capabilties.</li>
+                </ul>
+              </li>
+              <li>Application is hosted on Heroku with a SQLite database.</li>
+            </ul>
 
             <h4 class='lefth4'><u><a href="Final_Project.html" target="_blank">Taxicab Dataset Analysis 🚕 </a></u></h4>
-            <p><iframe src="Final_Project.html" title="TaxiCab" width = '100%' height = 300></iframe></p>
+            <ul>
+              <li> A data science group project. Completed as my final for COGS 108 : Data Science in Practice.  </li>
+            </ul>
+
             <h4 class='lefth4'><u><a href="https://github.com/matthewjkang/ETL-Pipeline-1" target="_blank">ETL Pipeline</a></u></h4>
-            <div class="projectholder">
-              <br>
-              <p class ='pcenter'>Viewable on github</p>
-              <p class ='pcenter'><a href="https://github.com/matthewjkang/ETL-Pipeline-1" target="_blank">https://github.com/matthewjkang/ETL-Pipeline-1</a></p>
-            </div>
-            <h4 class='lefth4'><u><a href="https://github.com/matthewjkang/ETL-Pipeline-1" target="_blank">Analysis of Machine Learning <br>Algorithms </a></u></h4>
-            <div class="projectholder">
-              <br>
-              <p class ='pcenter'>Someone please remind me to upload this project to github, it is sitting somewhere on my hard drive at home.</p>
-              <p class ='pcenter'><a href="https://github.com/matthewjkang" target="_blank">https://github.com/matthewjkang</a></p>
-            </div>
-            
+            <ul>
+              <li>A basic CSV parsing CLI application that I built for a battery intelligence start up.</li>
+            </ul>
+
+            <h4 class='lefth4'><u><a href="https://github.com/matthewjkang/ETL-Pipeline-1" target="_blank">Analysis of Machine Learning Algorithms </a></u></h4>
+            <ul>
+              <li>An analysis of how various machine learning algorithms performed on different datasets.</li>
+              <li>Completed as my final for COGS 118A : Supervised machine learning algorithms.</li>
+            </ul>
 
         </div>
     </article>
@@ -93,7 +112,7 @@
           </div>
 
           <div class="footer-col footer-col-2">
-            <p> Thanks for visiting my website! It's a static website made with HTML and CSS. It is deployed via Github Pages, and the domain name / CDN stuff is done through Namecheap.</p>
+            <p> Thanks for visiting my website! It's made with HTML & CSS, deployed via Github Pages using a domain name from Namecheap.</p>
             <p> It was nice meeting you!</p>
           </div>
 
