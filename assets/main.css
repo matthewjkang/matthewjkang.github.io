@@ -251,7 +251,7 @@ pre>code {
 		background-color: #fdfdfd;
 		border: 1px solid #e8e8e8;
 		border-radius: 5px;
-		text-align: right
+		text-align: left
 	}
 	.site-nav label[for="nav-trigger"] {
 		display: block;
@@ -284,7 +284,8 @@ pre>code {
 	.site-nav .page-link {
 		display: block;
 		padding: 5px 10px;
-		margin-left: 20px
+		margin-left: 10px;
+		color: #000;
 	}
 	.site-nav .page-link:not(:last-child) {
 		margin-right: 0
