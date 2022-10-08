@@ -2426,7 +2426,8 @@ button,
   font-size: 40px; font-weight: 700;
 
   /* (E3-3) COLORS */
-  color: #fff; background: rgba(0, 0, 0, 0.5);
+  color: #fff; 
+  /* background: rgba(0, 0, 0, 0.5); */
 
   /* (E3-4) ETC */
   padding: 10px; cursor: pointer;
@@ -2448,6 +2449,7 @@ button,
   /* (F1) DIMENSIONS */
   width: 100%;
   padding: 10px;
+  text-align: center;
 
   /* (F2) POSITION */
   position: absolute;
