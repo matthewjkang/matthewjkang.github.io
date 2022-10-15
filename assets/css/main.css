@@ -2402,6 +2402,8 @@ button,
 #slide3 { background-image: url("slideshow/bonita.JPG"); }
 #slide4 { background-image: url("slideshow/elsinore.jpeg"); }
 #slide5 { background-image: url("slideshow/bigsur.JPG"); }
+#slide6 { background-image: url("slideshow/wedding.JPG"); }
+#slide7 { background-image: url("slideshow/wanda.JPG"); }
 /* (D) SHOW/HIDE SLIDE */
 .slide {
   z-index: 1;
