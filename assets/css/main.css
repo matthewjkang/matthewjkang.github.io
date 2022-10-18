@@ -1272,7 +1272,8 @@ ul {
   margin: 0 0 -1iem 0;
   padding-left: 1em; }
   ul li {
-    padding-left: 0.5em; }
+    /* padding-left: 0.5em;  */
+  }
   ul.alt {
     list-style: none;
     padding-left: 0; }
@@ -1734,6 +1735,16 @@ button,
 
 /* Posts */
 .posts {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  /* min-height: 100vh; */
+  margin: 0;
+  /* padding: 1rem; */
+  /* line-height: 1.5; */
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: #444;
+  /* background-color: #e1faf1; */
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -1742,8 +1753,9 @@ button,
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 0 2em 3.5em;
-  width: calc(100% + 6em); }
+  /* margin: 0 0 2em 3.5em; */
+  /* width: calc(100% + 6em);  */
+  }
   .posts article {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -2359,7 +2371,7 @@ button,
   font-style: italic;
 }
 #projectparagraph{
-  margin: 0 0 1rem 0;
+  /* margin: 0 0 1rem 0; */
   color:black;
   font-family:'Roboto Slab',serif
 }
@@ -2482,7 +2494,7 @@ button,
 
 .card {
   --card-gradient: rgba(0, 0, 0, 0.8);
-  --card-gradient: #5e9ad9, #e271ad;
+  --card-gradient: #7c838a, #8a8387;
   --card-blend-mode: overlay;
   background-color: #fff;
   border-radius: 0.5rem;
@@ -2490,12 +2502,14 @@ button,
   padding-bottom: 1rem;
   background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh));
   overflow: hidden;
+  margin-top:2rem;
+  transition: transform .2s;
 }
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  /* -o-object-fit: cover;
+     object-fit: cover; */
   max-height: max(10rem, 30vh);
   aspect-ratio: 4/3;
   mix-blend-mode: var(--card-blend-mode);
@@ -2508,7 +2522,7 @@ button,
   margin-bottom: 0;
 }
 .card:hover, .card:focus-within {
-  --card-gradient: #24a9d5 max(8.5rem, 20vh);
+  transform: scale(1.05)
 }
 
 /* Additional demo display styles */
@@ -2532,6 +2546,7 @@ button,
 .card h3 {
   margin-top: 1rem;
   font-size: 1.25rem;
+  margin-bottom:1rem
 }
 
 .card a {
