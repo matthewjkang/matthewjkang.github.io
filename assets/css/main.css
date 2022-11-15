@@ -2455,8 +2455,9 @@ button,
 .next { right: 0; }
 
 /* (E4) SHOW ARROWS ON HOVER */
-.slides:hover .last, .slides:hover .next {
-  opacity: 1; visibility: visible;
+/* I removed the ":hover" after both .slides */
+.slides .last, .slides .next {
+  opacity: 0.8; visibility: visible;
 }
 
 /* (F) CAPTION */
