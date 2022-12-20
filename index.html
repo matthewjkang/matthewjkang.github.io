@@ -85,7 +85,7 @@
 											<p> San Francisco Bay Area</p>
 										</header>
 										<p id="bodytext">Welcome to my website!</p>
-										<p id="bodytext">Currently, I am a Data Analyst at <a href = 'https://www.evisort.com/' target = "_blank">Evisort</a>.</p>
+										<p id="bodytext">I am a Data Analyst at <a href = 'https://www.evisort.com/' target = "_blank">Evisort</a>.</p>
 
 										
 										<div class="BTholder">
@@ -126,9 +126,67 @@
 							<!-- Section -->
 								<section id="projects">
 									<header class="major">
-										<h1>Projects</h1>
+										<h1 style=" border-bottom: none; margin-bottom: 1em; ">Projects</h1>
 									</header>
-									<div class="posts">
+									<div class="storycontainer">
+  
+										<article class="episode">
+										  <div class="episode__content">
+											<div class="title">Branch_Base</div>
+											<div class="story">
+												<p id = 'projectparagraph'>A blogging application created using the Python framework, Django.</p>
+												<p id = 'projectparagraph'>AWS S3 for file storage, PostgreSQL for a database, hosted on Heroku.</p>
+												<p id = 'projectparagraph'><a href = "https://github.com/matthewjkang/BranchBase" target="_blank">Github.com/matthewjkang/BranchBase</a></p>
+											</div>
+										  </div>
+										</article>
+										
+										<article class="episode">
+										  <div class="episode__content">
+											<div class="title">Task_Master</div>
+											<div class="story">
+												<p id = 'projectparagraph'>A To-Do application made in Flask. Supports the 4 basic CRUD operations.</p>
+												<p id = 'projectparagraph'>Hosted on Heroku, SQLite database.</p>
+												<p id = 'projectparagraph'><a href = "https://github.com/matthewjkang/TaskMaster" target="_blank">Github.com/matthewjkang/TaskMaster</a></p>
+											</div>
+										  </div>
+										</article>
+										
+										<article class="episode">
+										  <div class="episode__content">
+											<div class="title">Comparison of Machine Learning Algorithms</div>
+											<div class="story">
+												<p id = 'projectparagraph'>Performance Analysis of K-NN, SVM, and Logistic Regression on datasets of 10,000+ rows.</p>
+												<p id = 'projectparagraph'>Used hyperparameter tuning to find optimal k value for k-folds cross validation. </p>
+												<p id = 'projectparagraph'>Project is presented in the form of a LaTeX document. </p>
+												<p id="projectparagraph"><a href="./MachineLearning.pdf" target="_blank">MachineLearning.pdf</a></p> 
+											</div>
+										  </div>
+										</article>
+
+										<article class="episode">
+											<div class="episode__content">
+											  <div class="title">Taxicab Dataset Analysis</div>
+											  <div class="story">
+												<p id = 'projectparagraph'>Used Python libraries such as Pandas, SKLearn, Seaborn, and Matplotlib to analyze a dataset of 30,000,000+ points.</p>
+												<p id = 'projectparagraph'>Used Dask to conduct computations in parallel. </p>
+												<p id = 'projectparagraph'>Project is presented in the form of a jupyter notebook. </p>
+												<p id="projectparagraph"><a href="./Taxicab.html" target="_blank">Taxicab.html</a></p> 
+											  </div>
+											</div>
+										  </article>
+										
+										<article class="episode">
+										  <div class="episode__content_last">
+											<div class="title">Many More</div>
+											<div class="story">
+												<p id = 'projectparagraph'>A multitude of internal tools, scripts, and analysis projects that I have created throughout various jobs.</p>
+												<p id="projectparagraph"><a href="https://github.com/matthewjkang" target="_blank">Github.com/MatthewJKang</a></p> 
+											</div>
+										  </div>
+										</article>
+									  </div>
+									<!-- <div class="posts">
 
 										<ul class="card-wrapper">
 
@@ -185,58 +243,7 @@
 
 										  </ul>
 
-										<!-- <article>
-											<h3>BranchBase ✏️</h3>
-											<div><img src="images/bb3.png" class = 'projectimage'></div>
-											
-											<p id = 'projectparagraph'>• BranchBase is a blogging application created using Django, a Python framework.</p>
-											<p id = 'projectparagraph'>• Supports user creation, log in & log out, creation of new posts, updating and deleting user specific posts, and much more.</p>
-											<p id = 'projectparagraph'>• File storage is done with AWS S3.</p>
-											<p id = 'projectparagraph'>• AWS S3 read and write permissions are provisioned using AWS IAM (Identity Access Manager)</p>
-											<p id = 'projectparagraph'>• Application itself is hosted on Heroku using a PostgreSQL database.</p>
-											<ul class="actions">
-												<li><a href="https://branchbase2.herokuapp.com/" target = "_blank" class="button">More</a></li>
-											</ul>
-										</article>
-
-										<article>
-											<h3>Task Master 🗒</h3>
-											<img src="images/todo3.png" class = 'projectimage'>
-											<p id = 'projectparagraph'>• Task Master is a To-Do application, created using Flask, a lightweight Python Framework. </p>
-											<p id = 'projectparagraph'>• Supports the four basic operations of persistent storage : Create, Read, Update, Delete.</p>
-											<p id = 'projectparagraph'>• Uses basic javascript to tell you the time and change the background & greeting for you based on the time of day.</p>
-											<p id = 'projectparagraph'>• Application is hosted on Heroku with a SQLite database.</p>
-											<ul class="actions">
-												<li><a href="https://mjktodo.herokuapp.com/" target='_blank' class="button">More</a></li>
-											</ul>
-										</article>
-
-										<article>
-											<h3>Taxicab Dataset Analysis 🚕</h3>
-											<img src="images/cogs108.png" class = 'projectimage'>
-											<p id = 'projectparagraph'>• Used Python libraries such as Pandas, SKLearn, Seaborn, and Matplotlib to analyze a dataset of 30,000,000+ points. Used Dask to conduct computations in parallel.</p>
-											<p id = 'projectparagraph'>• The question that we sought to answer was, "What factors have the greatest effect on tipping amongst taxicabs in Chicago?".</p>
-											<p id = 'projectparagraph'>• The answer was, not so surprisingly, trip duration. The second factor of greatest influence was the neighborhood in which the rider was picked up in. </p>
-											<p id = 'projectparagraph'>• Project is presented in the form of a jupyter notebook. </p>
-
-											<ul class="actions">
-												<li><a href="./Taxicab.html" class="button" target='_blank'>More</a></li>
-											</ul>
-										</article>
-
-										<article>
-											<h3>Comparing Machine Learning Algorithms 🧠</h3>
-											<img src="images/cogs118.png" class = 'projectimage'>
-											<p id = 'projectparagraph'>• Calculated performance analytics of K-NN, SVM, and Logistic Regression on datasets of 10,000+ rows.</p>
-											<p id = 'projectparagraph'>• Used hyperparameter tuning to find the configuration for k-folds cross validation. </p>
-											<p id = 'projectparagraph'>• Project is presented in the form of a LaTeX document. </p>
-
-											<ul class="actions">
-												<li><a href="./MachineLearning.pdf" class="button" target='_blank'>More</a></li>
-											</ul>
-										</article> -->
-
-									</div>
+									</div> -->
 								</section>
 
 
